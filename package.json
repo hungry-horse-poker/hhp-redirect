@@ -1,0 +1,24 @@
+{
+  "name": "hungryhorse-redirect",
+  "version": "1.0.0",
+  "description": "redirect traffic for hhp",
+  "keywords": [],
+  "homepage": "https://github.com/hungry-horse-poker/hhp-redirect#readme",
+  "bugs": {
+    "url": "https://github.com/hungry-horse-poker/hhp-redirect/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hungry-horse-poker/hhp-redirect.git"
+  },
+  "license": "ISC",
+  "author": "Noah Boswell",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
