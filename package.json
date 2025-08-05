@@ -21,8 +21,5 @@
   "dependencies": {
     "express": "^5.1.0",
     "path-to-regexp": "0.1.7"
-  },
-  "resolutions": {
-    "path-to-regexp": "0.1.7"
   }
 }

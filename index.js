@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-app.get('*', (req, res) => {
+app.get('/:path*', (req, res) => {
   if (req.hostname === 'hungryhorsepoker.com') {
     res.redirect(301, 'https://www.hungryhorsepoker.com' + req.originalUrl);
   } else {
@@ -9,5 +9,5 @@ app.get('*', (req, res) => {
   }
 });
 
-const port = process.env.PORT || 8080rm -rf node_modules package-lock.json;
+const port = process.env.PORT || 8080;
 app.listen(port, () => console.log(`Listening on port ${port}`));
